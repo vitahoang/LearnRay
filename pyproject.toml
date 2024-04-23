@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learnray"
+version = "0.1.0"
+description = ""
+authors = ["VitaHoang <hvhung.oc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ray = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
